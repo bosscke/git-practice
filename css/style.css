@@ -1,0 +1,59 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  box-sizing: border-box;
+  background-color: #fcfcfc;
+}
+
+body {
+  font-family: "Segoe UI", sans-serif;
+  font-size: 1.7rem;
+  color: #333333;
+}
+
+.heading__main {
+  color: crimson;
+  font-size: 3rem;
+  padding: 2rem 0;
+}
+.heading__h2 {
+  font-size: 2rem;
+  margin: 1rem 0;
+  color: #f58a9c;
+}
+
+.container {
+  margin: 3rem;
+}
+
+.section {
+  background-color: #262626;
+  color: #fcfcfc;
+}
+.section__gitTutorial {
+  margin: 2rem;
+}
+.section p {
+  margin: 1rem 0;
+}
+.section ul {
+  list-style-position: inside;
+  margin: 1rem 0;
+}
+.section code {
+  background-color: #e6f2ff;
+  color: #333333;
+  padding: 0.2rem 0.5rem;
+}
+
+/*# sourceMappingURL=style.css.map */

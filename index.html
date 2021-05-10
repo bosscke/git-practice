@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Git-Practice</title>
+</head>
+<body>
+    <div class="container">
+         <main>
+             <section class="section">
+                <section class="section__gitTutorial">
+                   
+                     <h1 class="heading__main">GIT Tutorial</h1>
+                           
+
+                    <article class="article__intro">
+                       <h2 class="heading__h2">Git Intro</h2>
+                    </article>
+
+                    <article class="article__getStarted">
+                       <h2 class="heading__h2">Git Get Started</h2>
+                    </article>
+
+                    <article class="article__newFiles">
+                       <h2 class="heading__h2">Git New Files</h2>
+                       <ul>
+                           <li>Tracked - files that Git knows about and are added to the repository</li>
+                           <li>Untracked - files that are in your working directory, but not added to the repository</li>
+                       </ul>
+                       <code>git status</code>
+                    </article>
+
+                    <article class="article__stagingEnvironment">
+                       <h2 class="heading__h2">Git Staging Environment</h2>
+                       <p>Staged files are files that are ready to be commited.</p>
+                       <code>git add index.html</code>
+                       <p>Using --all will stage all changes.</p>
+                       <code>git add --all</code>
+                       <p>Shorthand command is for add is . or -A.</p>
+                       <code>git add -A</code>
+
+                    </article>
+
+                    <article class="article__commit">
+                       <h2 class="heading__h2">Git Commit</h2>
+                       <p>By adding clear messages to each commit, it is easy for you and others to see what has changed and when!</p>
+                       <code>git commit -m "First release"</code>
+                       <p>Check the status of the repo using --short option to see changes in a more compact way.</p>
+                       <ul>
+                           <li>?? - Untracked files</li>
+                           <li>A - Files added to stage</li>
+                           <li>M - Modified files</li>
+                           <li>D - deleted files</li>
+                       </ul>
+                       <code>git status --short</code>
+                       <p>It is possible to commit changes directly, skipping the staging environment. The -a option will automatically stage every chnged already tracked file.</p>
+                       <code>git commit -a -m "Update .. "</code>
+                       <p>See the history of commits with log command.</p>
+                       <code>git log</code>
+                    </article>
+
+                    <article class="article__help">
+                       <h2 class="heading__h2">Git Help</h2>
+                       <ul>
+                          <li><code>git <em>command</em> -help</code> - See all available options for the specific command</li>
+                          <li><code>git help --all</code> - See all possible commands</li>
+                          <p>Jump to end of list shift + g.</p>
+                          <code>SHGIFT + G</code>
+                          <p>To exit q.</p>
+                          <code>q</code>
+                       </ul>
+                    </article>
+
+                    <article class="article__branch">
+                       <h2 class="heading__h2">Git Branch</h2>
+                       <p>In Git, a branch is a new/separate version of the main repository. Branches allow you to work on different parts of a project without impacting the main branch.</p>
+                       <code>git branch git-practice-2</code>
+                    </article>
+
+                    <article class="article__branchMerge">
+                       <h2 class="heading__h2">Git Branch Merge</h2>
+                    </article>
+
+                </section>
+             </section>
+             
+
+        </main>
+    </div>
+</body>
+</html>

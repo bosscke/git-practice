@@ -1,0 +1,20 @@
+.section {
+  background-color: $section-background-color;
+  color: $section-font-color;
+
+  &__gitTutorial {
+    margin: 2rem;
+  }
+  p {
+    margin: 1rem 0;
+  }
+  ul {
+    list-style-position: inside;
+    margin: 1rem 0;
+  }
+  code {
+    background-color: $code-background-color;
+    color: $base-font-color;
+    padding: 0.2rem 0.5rem;
+  }
+}
