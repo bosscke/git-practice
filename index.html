@@ -9,8 +9,8 @@
 </head>
 <body>
     <div class="container">
-         <main>
-             <section class="section">
+         
+             <div class="section">
                 <section class="section__gitTutorial">
                    
                      <h1 class="heading__main">GIT Tutorial</h1>
@@ -78,17 +78,32 @@
                        <h2 class="heading__h2">Git Branch</h2>
                        <p>In Git, a branch is a new/separate version of the main repository. Branches allow you to work on different parts of a project without impacting the main branch.</p>
                        <code>git branch git-practice-2</code>
+                       <p>To confirm that we created a new branch:</p>
+                       <code>git branch</code>
+                       <p>The * beside master indicates that we are currently still on the master branch. To move to the new created branch git-practice-2 use command checkout.</p>
+                       <code>git checkout git-practice-2</code>
+                       <p>To go back to master branch :</p>
+                       <code>git checkout master</code>
+                       <p>Create new branch to deal with a fix..:</p>
+                       <code>git checkout -b emergency-fix</code>
                     </article>
 
                     <article class="article__branchMerge">
                        <h2 class="heading__h2">Git Branch Merge</h2>
+                       <p>Now we can merge the current branch (master) with emergency-fix. First make sure to be on master branch.</p>
+                       <code>git checkout master</code>
+                       <p>Now merge (master) and emergency-fix.</p>
+                       <code>git merge emergency-fix</code>
+                       <p>As master and emergency-fix are same, it can be deleted.</p>
+                       <code>git branch -d emergency-fix</code>
+
                     </article>
 
                 </section>
-             </section>
+             </div>
              
 
-        </main>
+        
     </div>
 </body>
 </html>
