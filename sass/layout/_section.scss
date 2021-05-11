@@ -5,12 +5,18 @@
 
   p {
     margin: 1rem 0;
+    width: 70%;
   }
   em {
     color: $heading-main-color;
     font-style: normal;
   }
-  ul {
+  strong {
+    color: $heading-h3-color;
+    font-weight: normal;
+  }
+  ul,
+  ol {
     list-style-position: inside;
     margin: 1rem 0;
   }
@@ -20,28 +26,32 @@
     padding: 0.2rem 0.5rem;
   }
   &__gitTutorial {
-    margin: 2rem;
-    padding-bottom: 3rem;
+    margin: $margin-standard;
+    padding-bottom: $padding-standard;
     border-bottom: 1px solid $base-background-color;
   }
 
   &__gitAndGithub {
-    margin: 2rem;
+    margin: $margin-standard;
+    padding-bottom: $padding-standard;
     border-bottom: 1px solid $base-background-color;
   }
 
   &__gitContribute {
-    margin: 2rem;
+    margin: $margin-standard;
+    padding-bottom: $padding-standard;
     border-bottom: 1px solid $base-background-color;
   }
 
   &__gitAdvanced {
-    margin: 2rem;
+    margin: $margin-standard;
+    padding-bottom: $padding-standard;
     border-bottom: 1px solid $base-background-color;
   }
 
   &__gitUndo {
-    margin: 2rem;
+    margin: $margin-standard;
+    padding-bottom: $padding-standard;
     border-bottom: 1px solid $base-background-color;
   }
 }
