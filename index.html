@@ -132,11 +132,24 @@
                       </ul>
                       <p><em>fetch</em> gets all the changes of a tracked branch/repo, on your local Git and, <em>fetch</em> updates to see what has changed on GitHub.</p>
                      <code>git fetch origin</code>
+                     <p>Seems we are behind the <em>origin/master</em> by x commits. Some file should be updated, lets see which one by viewing the <em>log</em>:</p>
+                     <code>git log origin/master</code>
+                     <p>We can also show difference between our local  <em>master</em> and <em>origin/master</em>:</p>
+                     <code>git diff origin/master</code>
+                     <p>Once confirmed the expected updates, we can merge our current branch ( <em>master</em> ) with <em>origin/master</em>:</p>
+                     <code>git merge origin/master</code>
+                     <p>If you just want to upda your local repository, without the steps above the use <em>pull</em>.</p>
+                     <p><em>pull</em> is a combination of <em>fetch</em> and <em>merge</em></p>
+                     <code>git pull origin</code>
 
                    </article>
 
                    <article class="article__pushToGitHub">
                       <h2 class="heading__h2">Push to Git Hub</h2>
+                      <p>Make changes to your local git copy and push them to GitHub.</p>
+                      <code>git commit -a -m "Updated whatEver"</code>
+                      <p>Now push changes:</p>
+                      <code>git push origin</code>
                    </article>
 
                    <article class="article__gitHubBranch">
@@ -145,6 +158,8 @@
 
                    <article class="article__pullBranchFromGitHub">
                       <h2 class="heading__h2">Pull Branch From Git Hub</h2>
+                      <p>After making change on the new branch "git-practice-2". Let's <em>pull</em> from our GitHub repo again so that the code is up-to-date:</p>
+                      <code>git pull</code>
                    </article>
 
                    <article class="article__pushBranchToGitHub">
