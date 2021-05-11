@@ -6,7 +6,13 @@ body {
 
 .heading {
   &__main {
-    color: $heading-main2-color;
+    color: $heading-main-color;
+    font-size: 3rem;
+    padding: 2rem 0;
+    border-bottom: 1px solid $base-background-color;
+  }
+  &__h1 {
+    color: $heading-main-color;
     font-size: 3rem;
     padding: 2rem 0;
   }

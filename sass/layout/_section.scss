@@ -1,12 +1,14 @@
 .section {
   background-color: $section-background-color;
   color: $section-font-color;
+  padding-bottom: 1rem;
 
-  &__gitTutorial {
-    margin: 2rem;
-  }
   p {
     margin: 1rem 0;
+  }
+  em {
+    color: $heading-main-color;
+    font-style: normal;
   }
   ul {
     list-style-position: inside;
@@ -16,5 +18,30 @@
     background-color: $code-background-color;
     color: $base-font-color;
     padding: 0.2rem 0.5rem;
+  }
+  &__gitTutorial {
+    margin: 2rem;
+    padding-bottom: 3rem;
+    border-bottom: 1px solid $base-background-color;
+  }
+
+  &__gitAndGithub {
+    margin: 2rem;
+    border-bottom: 1px solid $base-background-color;
+  }
+
+  &__gitContribute {
+    margin: 2rem;
+    border-bottom: 1px solid $base-background-color;
+  }
+
+  &__gitAdvanced {
+    margin: 2rem;
+    border-bottom: 1px solid $base-background-color;
+  }
+
+  &__gitUndo {
+    margin: 2rem;
+    border-bottom: 1px solid $base-background-color;
   }
 }

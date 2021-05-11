@@ -1,18 +1,88 @@
-/* Error: expected "{".
- *   ,
- * 9 | $heading-main2-color: #808000;
- *   |                              ^
- *   '
- *   sass\abstracts\_variables.scss 9:30  @import
- *   sass\main.scss 1:9                   root stylesheet */
-
-body::before {
-  font-family: "Source Code Pro", "SF Mono", Monaco, Inconsolata, "Fira Mono",
-      "Droid Sans Mono", monospace, monospace;
-  white-space: pre;
-  display: block;
-  padding: 1em;
-  margin-bottom: 1em;
-  border-bottom: 2px solid black;
-  content: 'Error: expected "{".\a   \2577 \a 9 \2502  $heading-main2-color: #808000;\d\a   \2502                               ^\a   \2575 \a   sass\\abstracts\\_variables.scss 9:30  @import\a   sass\\main.scss 1:9                   root stylesheet';
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  box-sizing: border-box;
+  background-color: #fcfcfc;
+}
+
+body {
+  font-family: "Segoe UI", sans-serif;
+  font-size: 1.7rem;
+  color: #333333;
+}
+
+.heading__main {
+  color: crimson;
+  font-size: 3rem;
+  padding: 2rem 0;
+  border-bottom: 1px solid #fcfcfc;
+}
+.heading__h1 {
+  color: crimson;
+  font-size: 3rem;
+  padding: 2rem 0;
+}
+.heading__h2 {
+  font-size: 2rem;
+  margin: 1rem 0;
+  color: #f58a9c;
+}
+
+.container {
+  margin: 3rem;
+}
+
+.section {
+  background-color: #262626;
+  color: #fcfcfc;
+  padding-bottom: 1rem;
+}
+.section p {
+  margin: 1rem 0;
+}
+.section em {
+  color: crimson;
+  font-style: normal;
+}
+.section ul {
+  list-style-position: inside;
+  margin: 1rem 0;
+}
+.section code {
+  background-color: #e6f2ff;
+  color: #333333;
+  padding: 0.2rem 0.5rem;
+}
+.section__gitTutorial {
+  margin: 2rem;
+  padding-bottom: 3rem;
+  border-bottom: 1px solid #fcfcfc;
+}
+.section__gitAndGithub {
+  margin: 2rem;
+  border-bottom: 1px solid #fcfcfc;
+}
+.section__gitContribute {
+  margin: 2rem;
+  border-bottom: 1px solid #fcfcfc;
+}
+.section__gitAdvanced {
+  margin: 2rem;
+  border-bottom: 1px solid #fcfcfc;
+}
+.section__gitUndo {
+  margin: 2rem;
+  border-bottom: 1px solid #fcfcfc;
+}
+
+/*# sourceMappingURL=style.css.map */
