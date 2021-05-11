@@ -1,1 +1,1 @@
-This is the readme file.
+Taking notes while stuying.

@@ -33,9 +33,14 @@ body {
   padding: 2rem 0;
 }
 .heading__h2 {
+  color: #f58a9c;
   font-size: 2rem;
   margin: 1rem 0;
-  color: #f58a9c;
+}
+.heading__h3 {
+  color: #0073e6;
+  font-size: 1.8rem;
+  margin: 1rem 0;
 }
 
 .container {
@@ -49,12 +54,18 @@ body {
 }
 .section p {
   margin: 1rem 0;
+  width: 70%;
 }
 .section em {
   color: crimson;
   font-style: normal;
 }
-.section ul {
+.section strong {
+  color: #0073e6;
+  font-weight: normal;
+}
+.section ul,
+.section ol {
   list-style-position: inside;
   margin: 1rem 0;
 }
@@ -64,24 +75,28 @@ body {
   padding: 0.2rem 0.5rem;
 }
 .section__gitTutorial {
-  margin: 2rem;
-  padding-bottom: 3rem;
+  margin: 4rem;
+  padding-bottom: 4rem;
   border-bottom: 1px solid #fcfcfc;
 }
 .section__gitAndGithub {
-  margin: 2rem;
+  margin: 4rem;
+  padding-bottom: 4rem;
   border-bottom: 1px solid #fcfcfc;
 }
 .section__gitContribute {
-  margin: 2rem;
+  margin: 4rem;
+  padding-bottom: 4rem;
   border-bottom: 1px solid #fcfcfc;
 }
 .section__gitAdvanced {
-  margin: 2rem;
+  margin: 4rem;
+  padding-bottom: 4rem;
   border-bottom: 1px solid #fcfcfc;
 }
 .section__gitUndo {
-  margin: 2rem;
+  margin: 4rem;
+  padding-bottom: 4rem;
   border-bottom: 1px solid #fcfcfc;
 }
 

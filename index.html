@@ -176,10 +176,43 @@
 
                    <article class="article__pushBranchToGitHub">
                       <h2 class="heading__h2">Push Branch To Git Hub</h2>
+                      <p>Create a new local branch, and edit/add README.md file::</p>
+                      <code>git checkout -b add-readme</code>
+                      <p>Add and commit the file to the new branch "add-readme" (don't forget to add/create the file)</p>
+                      <code>git commit -a -m "Adding new README.md file"</code>
+                      <p>Now push the branch from the local Git repo to GitHub, where everyone can see the changes:</p>
+                      <code>git push origin update-readme</code>
+                      <p>Got to GitHub and confirm that repository has new branch.</p>
                    </article>
 
                    <article class="article__gitHubFlow">
                       <h2 class="heading__h2">Git Hub Flow</h2>
+                      <p>The GitHub flow focuses on branching and makes it possible for teams to experiment and make deployments regularly. The GitHub flow works like this:</p>
+                      <ol>
+                         <li>Create a new branch</li>
+                         <li>Make changes and commits</li>
+                         <li>Open a pull request</li>
+                         <li>Review</li>
+                         <li>Deploy</li>
+                         <li>Merge</li>
+                         <h3 class="heading__h3">Create a New Branch</h3>
+                         <p>Branching is the key concept in Git, and it works around that the master branch is, <strong>always</strong> deployable. If you want to try something new you create a new branch, this gives you the chance to make changes without affecting the main branch.</p> 
+                         <p>When your new branch is ready, it can be reviewed and discussed and merged with main branch if ready.</p>
+                         <h3 class="heading__h3">Make Changes and Add Commits</h3>
+                         <p>In the new branch meke changes by adding, editing and deleting files. Whenever you raeach a milestone add the changes to the branch by commit.</p>
+                         <p>Adding commits keeps track of your work. <strong>Each commit should have a message explaining what has changed and why</strong>. Each commit becomes a part of the history of the branch and a point you can revert back to if you need.</p>
+                         <h3 class="heading__h3">Open a Pull Request</h3>
+                         <p>Pull requests are key part of GitHub. A Pull request notifies people you have changes ready for them to consider or review.</p>
+                         <p>Ask others to review your changes or pull your contribution an merge it into their branch.</p>
+                         <h3 class="heading__h3">Review</h3>
+                         <p>Pull redquest can be review by whoever has the propper access to the branch. Git Hub shows new commit and feedback in the <strong>"unified Pull Request view"</strong></p>
+                         <h3 class="heading__h3">Deploy</h3>
+                         <p>When the pull request has been reviewed and all looks good, it's time for testing. Git Hub allows to deploy from a branch for final testing in production before merging with the master branch.</p>
+                         <p>If any issues arise you can undo the the changes by deploying the master branch into production again!</p>
+                         <h3 class="heading__h3">Merge</h3>
+                         <p>Once the testing is finished merge the code into the master branch. Pull request keep records of changes to your code, and if you comment and name changes well you can go back and understand why changes and decisions were made.</p>
+
+                      </ol>
                    </article>
 
                    <article class="article__gitHubPages">
@@ -197,7 +230,7 @@
 
                 <section class="section__gitAdvanced">
 
-                  <h1 class="heading__h1">Git Advances</h1>
+                  <h1 class="heading__h1">Git Advanced</h1>
 
                 </section>
 
